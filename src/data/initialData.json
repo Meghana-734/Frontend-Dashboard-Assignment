@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "w1",
+          "name": "Drift Monitor",
+          "text": "Tracks configuration drifts across cloud assets."
+        },
+        {
+          "id": "w2",
+          "name": "Misconfig Heatmap",
+          "text": "Visual hotspots for misconfigurations across regions."
+        },
+        {
+          "id": "w3",
+          "name": "Top Risky Accounts",
+          "text": "Accounts sorted by risk score for triage."
+        }
+      ]
+    },
+    {
+      "id": "siem",
+      "name": "SIEM Overview",
+      "widgets": [
+        {
+          "id": "w4",
+          "name": "Events Ingest",
+          "text": "EPS trend over last 24 hours."
+        },
+        {
+          "id": "w5",
+          "name": "Notable Alerts",
+          "text": "Open high severity alerts and their status."
+        }
+      ]
+    }
+  ]
+}
